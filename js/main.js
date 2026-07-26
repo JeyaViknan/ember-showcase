@@ -3,7 +3,7 @@
 // Paste the two YouTube URLs or IDs here when they are available.
 // Example: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 const VIDEOS = {
-  demo: "",
+  demo: "https://youtu.be/Ea-ZCU0lPlw",
   hardware: "https://youtu.be/2G8bk6b01eI"
 };
 
