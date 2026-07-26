@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EMBER - Honeywell Hackathon Submission</title>
+  <meta name="description" content="EMBER - Edge Mesh for Building Egress Routing. A polished front cover and navigation hub for the Honeywell Hackathon submission.">
+  <meta name="author" content="Jeyaviknan S R">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23e8442c' d='M16 3 29 29H3z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="brief-shell">
+    <header class="masthead">
+      <div class="context">
+        <span>Honeywell Hackathon</span>
+        <span>Problem Statement 2</span>
+        <span>Dynamic Fire Evacuation Router with Real-Time Hazard Mapping</span>
+      </div>
+      <div class="identity">
+        <div class="mark" aria-hidden="true"></div>
+        <div>
+          <p>Project</p>
+          <h1>EMBER</h1>
+          <h2>Edge Mesh for Building Egress Routing</h2>
+        </div>
+      </div>
+      <div class="author">
+        <span>Author</span>
+        <b>Jeyaviknan S R</b>
+        <button class="theme-toggle" type="button" aria-label="Switch to night mode" aria-pressed="false">
+          <span class="toggle-track"><i></i></span>
+          <em>Day</em>
+        </button>
+      </div>
+    </header>
+
+    <section class="cover">
+      <div class="summary-card">
+        <div class="eyebrow">Executive Summary</div>
+        <p class="lead">EMBER is a decentralised life-safety routing system for fire evacuation. A mesh of ESP32 nodes fuses local hazard readings, shares compact hazard vectors, and computes egress routes from the edge.</p>
+        <p>Instead of pointing people along a static shortest path, EMBER costs each corridor in physiological dose and routes on predicted conditions at the time an occupant will arrive there.</p>
+
+        <div class="summary-points">
+          <div>
+            <span>Problem</span>
+            <b>Static signage can point into a corridor that becomes untenable during the walk.</b>
+          </div>
+          <div>
+            <span>Solution</span>
+            <b>Every node solves its own predictive route using the shared building hazard table.</b>
+          </div>
+          <div>
+            <span>Difference</span>
+            <b>Cost is dose, not a tuned score; silence is treated as unknown, never safe.</b>
+          </div>
+        </div>
+      </div>
+
+      <section class="video-deck" aria-label="Submission videos">
+        <article class="video-card primary">
+          <div class="video-copy">
+            <span>Video 1</span>
+            <h3>Hackathon Demonstration</h3>
+            <p>Watch this first: the complete project walkthrough and submission narrative.</p>
+          </div>
+          <div class="youtube-slot" data-video="demo">
+            <div class="play-mark" aria-hidden="true"></div>
+            <b>YouTube preview</b>
+            <span>Add the Hackathon Demonstration YouTube URL in <code>js/main.js</code>.</span>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-copy">
+            <span>Video 2</span>
+            <h3>Existing Hardware Prototype</h3>
+            <p>Physical proof of the ESP32 edge node and indicator concept already built.</p>
+          </div>
+          <div class="youtube-slot" data-video="hardware">
+            <div class="play-mark" aria-hidden="true"></div>
+            <b>YouTube preview</b>
+            <span>Add the Hardware Prototype YouTube URL in <code>js/main.js</code>.</span>
+          </div>
+        </article>
+      </section>
+
+      <aside class="actions-card">
+        <div class="eyebrow">Quick Actions</div>
+        <div class="start-card" aria-label="Recommended viewing order">
+          <span>Start Here</span>
+          <ol>
+            <li>Watch Hackathon Demonstration</li>
+            <li>Read Executive Summary</li>
+            <li>Open Engineering Report</li>
+            <li>Explore GitHub</li>
+            <li>Launch Simulator</li>
+          </ol>
+        </div>
+        <nav class="action-grid" aria-label="Submission resources">
+          <a class="resource-link" href="../ember/exports/Engineering_Report.html" target="_blank" rel="noreferrer">
+            <i class="resource-icon icon-doc" aria-hidden="true"></i>
+            <span>Report</span>
+            <b>Engineering Report</b>
+            <em>HTML / 31 KB</em>
+          </a>
+          <a class="resource-link" href="../ember/exports/EMBER_Idea_Presentation.pptx" target="_blank" rel="noreferrer">
+            <i class="resource-icon icon-deck" aria-hidden="true"></i>
+            <span>Deck</span>
+            <b>Presentation</b>
+            <em>PPTX / 71 KB</em>
+          </a>
+          <a class="resource-link" href="https://github.com/JeyaViknan/ember" target="_blank" rel="noreferrer">
+            <i class="resource-icon icon-repo" aria-hidden="true"></i>
+            <span>Repo</span>
+            <b>GitHub Repository</b>
+            <em>Source of truth</em>
+          </a>
+          <a class="resource-link" href="https://github.com/JeyaViknan/ember/tree/main/core" target="_blank" rel="noreferrer">
+            <i class="resource-icon icon-code" aria-hidden="true"></i>
+            <span>Code</span>
+            <b>Firmware Source</b>
+            <em>Core C++17</em>
+          </a>
+          <a class="resource-link" href="../ember/exports/acceptance.html" target="_blank" rel="noreferrer">
+            <i class="resource-icon icon-check" aria-hidden="true"></i>
+            <span>Proof</span>
+            <b>Acceptance Results</b>
+            <em>15/15 tests</em>
+          </a>
+          <a class="resource-link" href="../ember/exports/README_SUBMISSION.md" target="_blank" rel="noreferrer">
+            <i class="resource-icon icon-pack" aria-hidden="true"></i>
+            <span>Pack</span>
+            <b>Downloads</b>
+            <em>Checklist / 1 KB</em>
+          </a>
+          <a class="resource-link" href="#" aria-disabled="true">
+            <i class="resource-icon icon-launch" aria-hidden="true"></i>
+            <span>Demo</span>
+            <b>Simulator Link</b>
+            <em>Launch placeholder</em>
+          </a>
+        </nav>
+      </aside>
+
+      <section class="proof-strip" aria-label="Performance highlights">
+        <div><span>Acceptance</span><b>15 / 15</b></div>
+        <div><span>Latency</span><b>p99 0.018 ms</b></div>
+        <div><span>Prediction</span><b>39 / 130 zones</b></div>
+        <div><span>Packet loss</span><b>128 / 128 routable</b></div>
+        <div><span>Footprint</span><b>18.5 KB / node</b></div>
+      </section>
+    </section>
+
+    <section class="architecture-section" id="architecture">
+      <div class="section-head">
+        <span>Architecture</span>
+        <h2>Three tiers with deliberately different guarantees.</h2>
+      </div>
+
+      <div class="architecture-diagram" aria-label="EMBER system architecture">
+        <div class="tier">
+          <span>Allowed to fail</span>
+          <h3>Cloud / Supervisory</h3>
+          <p>Fire Commander dashboard, MQTT over WiFi, telemetry, logging, diagnostics and lifecycle.</p>
+        </div>
+        <div class="tier critical">
+          <span>Must not fail</span>
+          <h3>Life-Safety Plane</h3>
+          <p>ESP-NOW peer-to-peer mesh carrying encrypted 48-byte hazard vectors. No AP, DHCP, broker or internet dependency.</p>
+        </div>
+        <div class="tier">
+          <span>Every zone</span>
+          <h3>Edge Node</h3>
+          <p>ESP32 with DHT22, MQ-2, IR flame, WS2812 strip and occupancy feed. Each node holds the full graph and solves its own route.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-grid">
+      <div class="section-head compact">
+        <span>Key Innovations</span>
+        <h2>What makes EMBER technically interesting.</h2>
+      </div>
+
+      <div class="innovation-grid">
+        <article>
+          <span>01</span>
+          <h3>Predictive Hazard Mapping</h3>
+          <p>Segments are evaluated at predicted arrival time, not only at alarm time.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Decentralised Edge Mesh</h3>
+          <p>No master node: each ESP32 fuses, shares and solves locally.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Physiological Dose Routing</h3>
+          <p>Smoke, heat, gas and exposure time become the route objective.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Distributed Decision Making</h3>
+          <p>Forward-from-self Dijkstra maps naturally to one node, one answer.</p>
+        </article>
+        <article>
+          <span>05</span>
+          <h3>Fault Tolerance</h3>
+          <p>Unknown zones receive a conservative penalty; corrupted frames are rejected.</p>
+        </article>
+        <article>
+          <span>06</span>
+          <h3>Validation</h3>
+          <p>Acceptance suite, native unit tests and seeded scenarios reproduce the evidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="performance-section">
+      <div class="section-head compact">
+        <span>Performance</span>
+        <h2>Highlights from the reproducible acceptance suite.</h2>
+      </div>
+
+      <div class="metric-grid">
+        <article><span>Acceptance Tests</span><b>15 / 15</b><p>All acceptance cases passing.</p></article>
+        <article><span>Route Latency</span><b>p99 0.018 ms</b><p>Against a 300 ms requirement.</p></article>
+        <article><span>Packet Loss</span><b>128 / 128</b><p>Tenable zones routable at 49.9% loss.</p></article>
+        <article><span>Prediction Accuracy</span><b>39 zones</b><p>Peak predictive divergence of 130 zones.</p></article>
+        <article><span>Memory Footprint</span><b>18.5 KB</b><p>Static allocation per node.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
