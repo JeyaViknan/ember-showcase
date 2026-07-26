@@ -168,8 +168,8 @@ a {
 }
 
 .mark {
-  width: clamp(53px, 4.3vw, 66.5px);
-  height: clamp(53px, 4.3vw, 66.5px);
+  width: 46px;
+  height: 46px;
   flex: none;
   background: linear-gradient(to bottom, var(--accent-blue-2), var(--accent-blue));
   clip-path: polygon(50% 0%, 87.5% 100%, 12.5% 100%);
